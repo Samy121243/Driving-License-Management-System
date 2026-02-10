@@ -1,0 +1,441 @@
+header
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(/Images/background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1
+{
+    color: red;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+header p
+{
+    font-size: 25px;
+}
+
+header span::after {
+    content: "";
+    animation: typing 6s infinite;
+    font-weight: bold;
+}
+
+#VarName
+{
+    font-weight: bold;
+}
+@keyframes typing {
+    0%   { content: "D|"; }
+    5%   { content: "De|"; }
+    10%  { content: "Dev|"; }
+    15%  { content: "Deve|"; }
+    20%  { content: "Devel|"; }
+    25%  { content: "Develo|"; }
+    30%  { content: "Develop|"; }
+    35%  { content: "Develope|"; }
+    40%  { content: "Developer|"; }
+    50%  { content: "|"; }
+    55%  { content: "D|"; }
+    60%  { content: "De|"; }
+    65%  { content: "Des|"; }
+    70%  { content: "Desi|"; }
+    75%  { content: "Desig|"; }
+    80%  { content: "Design|"; }
+    85%  { content: "Designe|"; }
+    100% { content: "Designer|"; }
+}
+
+#div1
+{
+    width: 290px;
+    height: 290px;
+    background-color:white;
+    border:  solid rgb(70, 68, 68) 8px;
+    border-radius: 5px;
+}
+
+#div2
+{
+    width: 290px;
+    height: 310px;
+    background-image: url(/Images/Cr7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 270px;
+    left: 30px;
+    border-radius: 5px;
+}
+
+
+#divAbou2 span
+{
+    color: red;
+}
+
+#Lead
+{
+    font-size: medium;
+    font-weight: bold;
+    color: gray;
+}
+
+.Pre
+{
+    font-size: 17px;
+}
+
+.b1
+{
+   background-color: rgb(255, 51, 102);
+   color: whitesmoke;
+   border: 2px rgb(255, 51, 102) solid;
+   border-radius: 7px;
+   padding: 8px;
+   width: 170px;
+   text-align: center;
+}
+
+.b2
+{
+   background-color: rgb(255, 51, 102);
+   color: whitesmoke;
+   border: 2px rgb(255, 51, 102) solid;
+   border-radius: 7px;
+   padding: 8px;
+   width: 140px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+
+}
+
+.b1,.b2
+{
+    transition: all .2s;
+}
+
+.b1:hover
+{
+    background-color: red;
+}
+.b2:hover
+{
+    background-color: red;
+}
+
+
+#Services
+{
+   background-color: #f0f0f0;
+}
+
+#card
+{
+    padding: 15px 15px;
+    margin-top:30px;
+    transition: all .2s;
+}
+
+#card:hover
+{
+    cursor:default;
+    background-color: white
+}
+
+
+#txtServices
+{
+    position: relative;
+    bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#txtServices::after
+{
+    content: "";
+    background-color: red;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50px;
+    right: 410px;
+}
+
+/* .portfolio
+{
+    background-color: aquamarine;
+} */
+
+.portfolio a
+{
+    text-decoration: none;
+    margin:20px 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    transition: all .2s;
+}
+
+
+.portfolio a:hover
+{
+    cursor: pointer;
+    color: red;
+}
+
+.ImageRow1
+{
+    display: flex;
+}
+
+.ImageRow1 img
+{
+    margin: 10px;
+    width: 300px;
+    height: 220px;
+}
+
+
+.ImageRow2
+{
+    display: flex;
+}
+
+.ImageRow2 img
+{
+    margin: 10px;
+    width: 300px;
+    height: 220px;
+}
+img {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+img:hover {
+  filter: brightness(70%);  /*  ده بيغمّق الصورة .*/
+}
+
+/* .content:first-of-type {  
+  display: block;          دى اول صفحه هتظهر وهتكون ال defult
+} */
+
+
+.content {
+  display: none;
+}
+
+.content:target {
+  display: block;
+}
+
+
+.content1 {
+  display: none;
+}
+
+.content1:target {
+  display: block;
+}
+
+
+
+.content2 {
+  display: none;
+}
+
+.content2:target {
+  display: block;
+}
+
+
+.content3 {
+  display: none;
+}
+
+.content3:target {
+  display: block;
+}
+
+#Loading
+{
+    background-color: #f0f0f0;
+}
+
+#IconLoading
+{
+    color: red;
+}
+
+
+
+#txtFeedback
+{
+    padding: 30px 30px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 900;
+}
+
+#txtFeedback::after
+{
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 2px;
+    background-color: red;
+    bottom: 21px;
+    right: 340px;
+    
+}
+
+#carouselExampleDark {
+    width: 600px;
+    height: auto;
+    position: relative; /* أو شيل السطر كله */
+    left: 0;
+    margin: auto;
+}
+
+
+#FeedBack
+{
+    padding: 10px 0px;
+}
+
+
+#OurBlogSec
+{
+    background-color: #f0f0f0;
+}
+
+#imgBlog1
+{
+    width: 275.5px;
+    height: 180px;
+}
+
+#PBlog
+{
+    color:gray;
+    font-weight: 600;
+}
+
+
+#ReadMore
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+#ReadMore:hover
+{
+    cursor: pointer;
+    color: red;
+}
+
+#txtBlog
+{
+    position:relative;
+    bottom: 40px;
+    font-weight: 900;
+    font-size: 34px;
+    color: rgb(51, 50, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.CardBlog
+{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#f1
+{
+      width: 275.5px;
+    height: 180px;
+}
+
+
+#Footer
+{
+    background: #333333 none repeat scroll 0 0;;
+}
+
+
+.navbar li a
+{
+    transition: all .2s;
+}
+
+.navbar li a:hover
+{
+    cursor: pointer;
+    color: red;
+}
+
+
+#txtcontact
+{
+    font-weight: 800;
+    font-size: 34px;
+    color: black;
+    padding: 20px 20px; 
+    margin-top: 10px;
+    bottom: 30px;
+}
+
+#txtcontact::after
+{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 450px;
+}
+
+
+#Email
+{
+    margin-left: 10px;
+}
+
+#btnMessage
+{
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    border-radius: 12px;
+    transition: all .2s;
+    left: 360px;
+}
+
+#btnMessage:hover
+{
+    color: whitesmoke;
+}
+
+i
+{
+    transition: all .2s;
+}
+
+i:hover
+{
+    color: greenyellow;
+}
